@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-FROM python:3.9.16-slim-bullseye
+FROM python:3.12.0rc2-slim-bullseye
 
 # Build-time flags
 ARG WITH_PLUGINS=true
