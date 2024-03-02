@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-FROM python:3.11.5-slim-bookworm
+FROM python:3.13.0a3-slim-bookworm
 
 # Build-time flags
 ARG WITH_PLUGINS=true
